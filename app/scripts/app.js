@@ -28,6 +28,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/lcoaliza', {
+        templateUrl: 'views/localiza.html',
+        controller: 'LocalizaCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
