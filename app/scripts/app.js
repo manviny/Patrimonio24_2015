@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'onsen'
+    'onsen',
+    'leaflet-directive'
   ])
   .config(function ($routeProvider) {
     $routeProvider
