@@ -33,6 +33,10 @@ angular
         templateUrl: 'views/localiza.html',
         controller: 'LocalizaCtrl'
       })
+      .when('/lugaresdeinteres', {
+        templateUrl: 'views/lugaresdeinteres.html',
+        controller: 'LugaresdeinteresCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
